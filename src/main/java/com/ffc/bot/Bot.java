@@ -2,6 +2,10 @@ package main.java.com.ffc.bot;
 
 public class Bot {
 
+    private Bot(){
+
+    }
+
     public static String BOT_USERNAME;
     public static String BOT_TOKEN;
 
