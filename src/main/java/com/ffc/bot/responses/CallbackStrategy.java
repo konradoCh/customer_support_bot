@@ -1,0 +1,11 @@
+package main.java.com.ffc.bot.responses;
+
+import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
+import org.telegram.telegrambots.meta.api.objects.Update;
+
+public class CallbackStrategy implements Strategy{
+    @Override
+    public SendMessage getResponse(Update update) {
+        return null;
+    }
+}
