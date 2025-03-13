@@ -39,15 +39,15 @@ public class TextStrategy implements Strategy{
 
                 InlineKeyboardButton orderStatus = new InlineKeyboardButton();
 
-                orderStatus.setText("Check Order Status");
+                orderStatus.setText("Status");
                 orderStatus.setCallbackData(ORDER_STATUS.toString());
 
                 InlineKeyboardButton informationButton = new InlineKeyboardButton();
-                informationButton.setText("Get general information");
+                informationButton.setText("Information");
                 informationButton.setCallbackData(MORE_INFORMATION.toString());
 
                 InlineKeyboardButton contactHumanSupportButton = new InlineKeyboardButton();
-                contactHumanSupportButton.setText("Contact human support");
+                contactHumanSupportButton.setText("Support");
                 contactHumanSupportButton.setCallbackData(CONTACT_HUMAN.toString());
 
                 buttonsRow.add(orderStatus);
